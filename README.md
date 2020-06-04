@@ -8,8 +8,9 @@ Work Todo is a simple Android application 📱 which shows the work to perfrom i
 
 - It simply loads the save work assigned to the database.
 - It is offline capable(Locally sored using room)
+<p>
 <img src="Images/Splash_screen.jpg"
-
+     </p>
 
 # Built With 🔨
  - ```Kotlin``` - First class and official programming language for Android development.
