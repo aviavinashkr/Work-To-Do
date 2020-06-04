@@ -10,6 +10,8 @@ Work Todo is a simple Android application 📱 which shows the work to perfrom i
 - It is offline capable(Locally sored using room)
 <p>
 <img src="Images/Splash_screen.jpg"
+  <img src="Images/main.jpg"
+     <img src="Images/About.jpg"
      </p>
 
 # Built With 🔨
