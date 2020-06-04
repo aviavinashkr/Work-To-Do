@@ -1,6 +1,6 @@
 # Work To Do
 <p align ="center">
-<img src="Images/ic_icon.png height=100"
+<img src="Images/ic_icon.png"
 </p>
 
 Work Todo is a simple Android application 📱 which shows the work to perfrom in a list using Room Database and Recycler View
