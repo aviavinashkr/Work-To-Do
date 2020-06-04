@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Work To Do</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_new">Add New</string>
+    <string name="welcome">Welcome</string>
+    <string name="work_to_do">Work TO DO</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="developed_by">Developed By</string>
+    <string name="avinash_kumar">Avinash Kumar</string>
+    <string name="mail_id">aviavinashkr007@gamil.com</string>
+    <string name="github_ID">github.com/aviavinashkr</string>
+</resources>

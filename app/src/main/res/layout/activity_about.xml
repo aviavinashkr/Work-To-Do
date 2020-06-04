@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:src="@mipmap/ic_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/work_to_do"
+       android:layout_below="@+id/logo"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/version_1_0"
+        android:textSize="20sp"
+        android:layout_below="@+id/titleText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/version"/>
+
+    <TextView
+        android:id="@+id/developedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/developed_by"
+        android:textSize="30sp"
+      android:layout_below="@+id/version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pic"
+        android:layout_below="@+id/developedBy"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/avinash_kumar"
+        android:textSize="20sp"
+        android:layout_below="@+id/pic"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_mail_outline_24"
+        android:id="@+id/mailLogo"
+        android:layout_below="@id/nameText"
+        android:layout_marginStart="100dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/mailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText"
+        android:layout_alignLeft="@+id/mailLogo"
+        android:layout_alignTop="@+id/mailLogo"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/mail_id"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/githubLogo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mailLogo"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/github"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:layout_marginStart="100dp"/>
+
+    <TextView
+        android:id="@+id/gitID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github_ID"
+       android:layout_alignLeft="@id/githubLogo"
+        android:layout_alignTop="@id/githubLogo"
+        android:layout_marginLeft="26dp"/>
+
+
+</RelativeLayout>
